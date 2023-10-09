@@ -1,0 +1,53 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.coluna{
+    width: 500px;
+    height: 300px;
+    background-color: rgb(118, 118, 118);
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 5px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    font: 300 20px 'potato';
+    padding: 2px;
+
+}
+#nova-tarefa{
+    background-color: rgb(178, 178, 178);
+    height: 30px;
+    border-radius: 5px;
+    font: 300 20px 'potato';
+}
+button{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(216, 216, 216);
+    font: 300 20px 'potato';
+}
+#trelo{
+    width: 500px;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font: 400 30px 'potato';
+}
+@font-face {
+    font-family: 'potato';
+    src: url(Potato_sans-Bold.otf);
+}
+label{
+    font: 300 20px 'potato';
+}
+#checkbox{
+    margin-top: 10px;
+    font: 300 20px 'potato';
+}
